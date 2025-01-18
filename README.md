@@ -27,13 +27,16 @@ CONFIGURAR Y EJECUTAR BACKEND (API)
 3-Compila el proyecto: dotnet build
 4-Ejecuta el servidor: dotnet run
 
-Una vez que la API esté corriendo, abre tu navegador y accede a Swagger para interactuar con los endpoints:
-http://localhost:5000/swagger
+Una vez que la API esté corriendo, abre tu navegador y accede a Swagger para interactuar con los endpoints. El puerto puede variar según la configuración, así que verifica la URL que aparece en la consola al ejecutar el comando `dotnet run`. Debería verse algo así:
+info: Microsoft.Hosting.Lifetime[14] Now listening on: http://localhost:5052 Now listening on: https://localhost:7052
 
-CONFIGURAR Y EJECUTAR FRONTEND:
+En este ejemplo, accede a Swagger en `http://localhost:5052/swagger` o la URL indicada en tu terminal.
+
+
+CONFIGURAR Y EJECUTAR FRONTEND: Abre una **nueva terminal** sin cerrar la del backend.
 1-Volver a la raiz del proyecto: cwellt
 2-Acceder a frontend : cd to-do-list
-3-Instala las dependencias del proyecto: npm install
+3-Instala las dependencias del proyecto: npm install (Si encuentras problemas al instalar las dependencias, ejecuta: npm install --legacy-peer-deps)
 4-Ejecuta servidor de desarrollo: npm start
 5-Abre tu navegador y accede al frontend en: http://localhost:3000
 
