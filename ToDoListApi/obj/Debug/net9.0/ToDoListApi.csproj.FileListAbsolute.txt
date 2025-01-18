@@ -6,8 +6,15 @@ C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\ToDoListApi
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\ToDoListApi.runtimeconfig.json
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\ToDoListApi.dll
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\ToDoListApi.pdb
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\ToDoListApi.xml
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.csproj.AssemblyReference.cache
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.AssemblyInfoInputs.cache
@@ -15,6 +22,7 @@ C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.csproj.CoreCompileInputs.cache
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.sourcelink.json
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\scopedcss\bundle\ToDoListApi.styles.css
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\staticwebassets.development.json
@@ -28,12 +36,7 @@ C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\staticwebas
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoList.205D5B25.Up2Date
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.dll
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\refint\ToDoListApi.dll
+C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.xml
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.pdb
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ToDoListApi.genruntimeconfig.cache
 C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\obj\Debug\net9.0\ref\ToDoListApi.dll
-C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\María Victoria\Desktop\cwellt\ToDoListApi\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll

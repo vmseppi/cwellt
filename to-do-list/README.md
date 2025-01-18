@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# ToDoList API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una API REST para gestionar tareas (To-Do List). Está desarrollado en **ASP.NET Core 9.0** con soporte para Swagger para la documentación interactiva y utiliza una base de datos en memoria para facilitar las pruebas y el desarrollo.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Instrucciones para ejecutar el proyecto localmente
 
-### `npm start`
+### **Requisitos previos**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Tener instalado el SDK de .NET 9.0. Puedes verificar tu instalación con:
+   ```bash
+   dotnet --version
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### \*Pasos para ejecutar
 
-### `npm test`
+Clonar el repositorio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone <https://github.com/vmseppi/cwellt.git>
+cd cwellt
 
-### `npm run build`
+CONFIGURAR Y EJECUTAR BACKEND (API)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1-Accede a la carpeta del backend: cd ToDoListApi
+2-Restaura las dependencias: dotnet restore
+3-Compila el proyecto: dotnet build
+4-Ejecuta el servidor: dotnet run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Una vez que la API esté corriendo, abre tu navegador y accede a Swagger para interactuar con los endpoints:
+http://localhost:5000/swagger
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CONFIGURAR Y EJECUTAR FRONTEND:
+1-Volver a la raiz del proyecto: cwellt
+2-Acceder a frontend : cd to-do-list
+3-Instala las dependencias del proyecto: npm install
+4-Ejecuta servidor de desarrollo: npm start
+5-Abre tu navegador y accede al frontend en: http://localhost:3000
 
-### `npm run eject`
+🛠️ Decisiones técnicas tomadas
+Framework: Se utilizó ASP.NET Core 9.0.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Base de datos en memoria:
+Para simplificar las pruebas y el desarrollo inicial, se configuró una base de datos en memoria utilizando Entity Framework Core.
+Esto evita la necesidad de instalar y configurar una base de datos externa.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Swagger:
+Integrado para proporcionar documentación interactiva de los endpoints de la API.
+Esto facilita a los desarrolladores explorar y probar la API directamente desde el navegador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+CORS:
+Configurado para permitir cualquier origen, método y encabezado durante el desarrollo.
+En producción, esta configuración debería restringirse para mayor seguridad.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📌 Notas adicionales
 
-## Learn More
+Documentación XML: El proyecto está configurado para generar un archivo XML con los comentarios de los controladores y endpoints. Esto se integra automáticamente con Swagger.
+Extensibilidad:
+🧩 Endpoints disponibles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Los principales endpoints de la API incluyen:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+GET /api/task: Obtiene todas las tareas.
+GET /api/task/{id}: Obtiene una tarea específica por ID.
+POST /api/task: Crea una nueva tarea.
+PUT /api/task/{id}: Actualiza una tarea existente.
+DELETE /api/task/{id}: Elimina una tarea.
+Para más detalles, consulta Swagger en http://localhost:5000/swagger.
 
-### Code Splitting
+💬 Contacto
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: vmseppi@gmail.com
+GitHub: https://github.com/vmseppi

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDoListApi</name>
+    </assembly>
+    <members>
+        <member name="T:TaskController">
+            <summary>
+            Controlador para gestionar tareas en la API.
+            </summary>
+        </member>
+        <member name="M:TaskController.GetTasks">
+            <summary>
+            Obtiene todas las tareas.
+            </summary>
+            <returns>Una lista de tareas.</returns>
+            <response code="200">Retorna todas las tareas disponibles.</response>
+        </member>
+        <member name="M:TaskController.GetTask(System.Int32)">
+            <summary>
+            Obtiene una tarea específica por su ID.
+            </summary>
+            <param name="id">El ID de la tarea.</param>
+            <returns>La tarea solicitada.</returns>
+            <response code="200">Retorna la tarea si existe.</response>
+            <response code="404">Retorna un mensaje indicando que la tarea no fue encontrada.</response>
+        </member>
+        <member name="M:TaskController.CreateTask(ToDoListApi.Models.TaskItem)">
+            <summary>
+            Crea una nueva tarea.
+            </summary>
+            <param name="newTask">El objeto que contiene los datos de la nueva tarea.</param>
+            <returns>La tarea creada.</returns>
+            <response code="201">Retorna la tarea creada exitosamente.</response>
+            <response code="400">Retorna un mensaje indicando que la entrada no es válida.</response>
+        </member>
+        <member name="M:TaskController.UpdateTask(System.Int32,ToDoListApi.Models.TaskItem)">
+            <summary>
+            Actualiza una tarea existente.
+            </summary>
+            <param name="id">El ID de la tarea a actualizar.</param>
+            <param name="updatedTask">Los datos actualizados de la tarea.</param>
+            <response code="204">La tarea fue actualizada exitosamente.</response>
+            <response code="404">Retorna un mensaje indicando que la tarea no fue encontrada.</response>
+            <response code="400">Retorna un mensaje indicando que los datos son inválidos.</response>
+        </member>
+        <member name="M:TaskController.DeleteTask(System.Int32)">
+            <summary>
+            Elimina una tarea por su ID.
+            </summary>
+            <param name="id">El ID de la tarea a eliminar.</param>
+            <response code="204">La tarea fue eliminada exitosamente.</response>
+            <response code="404">Retorna un mensaje indicando que la tarea no fue encontrada.</response>
+        </member>
+        <member name="T:ToDoListApi.Data.TaskContext">
+            <summary>
+            Contexto de base de datos para gestionar las tareas.
+            </summary>
+        </member>
+        <member name="M:ToDoListApi.Data.TaskContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{ToDoListApi.Data.TaskContext})">
+            <summary>
+            Inicializa una nueva instancia de <see cref="T:ToDoListApi.Data.TaskContext"/>.
+            </summary>
+            <param name="options">Opciones del contexto de base de datos.</param>
+        </member>
+        <member name="P:ToDoListApi.Data.TaskContext.Tasks">
+            <summary>
+            Conjunto de datos para las tareas.
+            </summary>
+        </member>
+        <member name="T:ToDoListApi.Models.TaskItem">
+            <summary>
+            Representa una tarea en la lista.
+            </summary>
+        </member>
+        <member name="P:ToDoListApi.Models.TaskItem.Id">
+            <summary>
+            Identificador único de la tarea.
+            </summary>
+        </member>
+        <member name="P:ToDoListApi.Models.TaskItem.Title">
+            <summary>
+            Título de la tarea.
+            </summary>
+        </member>
+        <member name="P:ToDoListApi.Models.TaskItem.Description">
+            <summary>
+            Descripción detallada de la tarea.
+            </summary>
+        </member>
+        <member name="P:ToDoListApi.Models.TaskItem.IsCompleted">
+            <summary>
+            Indica si la tarea está completada.
+            </summary>
+        </member>
+        <member name="P:ToDoListApi.Models.TaskItem.CreatedAt">
+            <summary>
+            Fecha de creación de la tarea.
+            </summary>
+        </member>
+    </members>
+</doc>
